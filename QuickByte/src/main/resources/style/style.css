@@ -1,0 +1,169 @@
+/* style.css */
+
+.login-container {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 30;  /* Aumentato il padding */
+    -fx-spacing: 15;  /* Più spazio tra gli elementi */
+    -fx-alignment: center;
+    -fx-font-family: Arial, sans-serif;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.role-list {
+    -fx-font-size: 16px;
+    -fx-text-fill: black;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555;
+    -fx-padding: 5 0 5 0; /* Aggiunto spazio sopra e sotto */
+}
+
+.text-field, .password-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 10;  /* Margine interno più grande */
+    -fx-font-size: 14px;
+    -fx-min-width: 300px; /* Impostata larghezza minima */
+}
+
+.button-logout {
+	-fx-background-color: red !important; 
+	-fx-text-fill: white !important; 
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 12 24;
+    -fx-border-radius: 20;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button-secondary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4CAF50;
+    -fx-font-size: 14px;
+    -fx-padding: 5 0 5 0;
+    -fx-border-radius: 4;
+}
+
+.button-secondary:hover {
+	-fx-background-color: transparent;
+    -fx-underline: true;
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 14px;
+	-fx-margin: 30px;
+	-fx-min-width: 300px; /* Stessa larghezza degli input */
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0 5 0 0;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+}
+
+.combo-box .list-cell {
+    -fx-padding: 8 10;
+    -fx-font-size: 14px;
+}
+
+.combo-box .list-cell:hover {
+	-fx-text-fill: black;
+    -fx-background-color: #f0f0f0;
+}
+
+.field-box, .password-box {
+    -fx-alignment: center-left;
+    -fx-spacing: 8;  /* Aggiunto più spazio tra label e input */
+    -fx-max-width: 300px; /* Leggermente più largo */
+    -fx-padding: 5; /* Aggiunto padding */
+}
+
+/* Stile per la tabella */
+.table-view {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}
+
+/* Stile per l'intestazione della colonna */
+.table-view .column-header {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white !important;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 10 8 10;
+}
+
+.table-view .column-header:hover {
+    -fx-background-color: #45a049;
+}
+
+.table-view .table-cell {
+    -fx-padding: 8 10 8 10;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Stile per i pulsanti all'interno della tabella */
+.table-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5 10 5 10;
+    -fx-border-radius: 4;
+}
+
+.table-button:hover {
+    -fx-background-color: #45a049;
+}
+
+.table-view .table-row-cell:selected {
+
+    -fx-background-color: #90EE90; /* Verde chiaro */
+    -fx-text-fill: #333333;
+}
+
+
+/* Table button for emojis */
+.table-button-emoji {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5 10 5 10;
+    -fx-border-radius: 4;
+}
+
+.table-button-emoji:hover {
+    -fx-background-color: transparent;
+	-fx-text-fill: #45a049; /* Adjust hover text color as needed */
+}
